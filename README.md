@@ -15,37 +15,41 @@ Managing Smart Contracts at scale is difficult, especially for a distributed tea
 * Event Streams
 * Contract Monitoring
 
-## Demo
+## CI/CD Demo
 
 <p align="center">
  <img src="images/overview.png" align="center" width="650">
  <p align="center">
-<align="center">
+
 
 <p align="center">
  <img src="images/overview.png" align="center" width="650">
  <p align="center">
-<align="center">
+
 
 <p align="center">
  <img src="images/pipeline.png" align="center" width="650">
  <p align="center">
-<align="center">
+
 
 <p align="center">
  <img src="images/pipeline_pr_mythx.png" align="center" width="650">
  <p align="center">
-<align="center">
+
 
 <p align="center">
  <img src="images/pipeline_semver.png" align="center" width="650">
  <p align="center">
-<align="center">
+
 
 <p align="center">
  <img src="images/demo_overview.png" align="center" width="650">
  <p align="center">
-<align="center">
+
+<p align="center">
+ <img src="images/error_widescreen.png" align="center" width="650">
+ <p align="center">
+
 
 
 ### Supported Versions
@@ -112,5 +116,7 @@ Basic Services. Expand to see more details.
 [Improvement Roadmap](CONTRIBUTING.md)
 
 ## License
-
+*For Solidity CI Components*
 SPDX-License-Identifier: MPL-2.0
+*Concourse CI Components*
+SPDX-License-Identifier: Apache-2.0
