@@ -1,0 +1,7 @@
+#!/bin/bash
+# Alternative Command Line Option:
+# fly --target "$CONCOURSE_NAME" login --team-name "$TEAM_NAME" --concourse-url "$(cat job-metadata/atc-external-url)" -b
+wget https://gist.githubusercontent.com/sambacha/71811db19fcc80a80fbdca5ff5842f5a/raw/546caa15bcb57564bbbc1da849f92ab80d378f88/solidity-ci.yml
+cat pipeline.yml | fly -t solidity-ci set-pipeline \
+    --pipeline solidity-ci.yml \
+    --config -
